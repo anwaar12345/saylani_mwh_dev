@@ -1,0 +1,22 @@
+nav{
+    padding: 10px;
+    background-color: aqua;
+} 
+
+
+ul > li{
+    list-style-type: none;
+    display: inline-block;
+}
+li:after{
+    border-right: 1px solid black;
+}
+li > a{
+    text-decoration: none; 
+    margin: 5px;
+}
+
+.container{
+margin-top: 30px;
+padding: 10px;
+}
