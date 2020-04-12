@@ -1,1 +1,1 @@
-now Htl has completed started css but need to study flash , video and extraa mark up chapters
+now HTMl5 has completed started CSS3 but need to study flash , video and extraa mark up chapters
