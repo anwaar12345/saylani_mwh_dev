@@ -92,5 +92,16 @@ button{
 
 image{
     margin-bottom: 200px;
-width: 10px;
+    height: 10px;
+}   
+
+
+
+.intro{
+    text-align: center;
+    color: whitesmoke;
+    background-color: slateblue;
+    width: 380px;
+    margin-left: 600px;
+    margin-bottom: -15px;
 }
