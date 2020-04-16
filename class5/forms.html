@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Saylani | Forms Assignments | </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <div class="image">
+                <img src="images/saylani.jpg" alt="saylani logo">
+            </div>
+        <h1>Student Registration Form</h1>
+    </div>
+        <div class="form">
+
+<form action="">
+
+<table>
+    <tr>
+
+        <td><p><label for="first name">FIRST NAME </label></p></td>
+        <td><input type="text" placeholder="Enter First Name"></td><td><p class="p">(Max 30 characters a-z and  A-Z)</p></td>
+    </tr>
+    <tr>
+
+        <td><p><label for="last name">LAST NAME </label></p></td>
+        <td><input type="text" placeholder="Enter Last Name"></td><td><p class="p">(Max 30 characters a-z and  A-Z)</p></td>
+       
+        
+    </tr>
+    <tr>
+
+        <td><p><label for="dob">Date Of Brith </label></p></td>
+        <td><select name="day" style="margin-left: 30px; margin-right: 10px;">
+            <option selected disabled>Day: </option>
+        </select><select name="month" style="margin-right: 10px;">
+            <option selected disabled>Month: </option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+        </select><select name="year">
+            <option selected disabled>Year: </option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+        </select></td>
+        </tr>
+        <tr>
+
+            <td><p><label for="Email">Email ID </label></p></td>
+            <td><input type="email" placeholder="Enter Email Address"></td>
+                
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="Mobile Number">MOBILE NUMBER </label></p></td>
+            <td><input type="number" placeholder="Enter Mobile Number"></td><td><p  class="p">(10 Digit Number)</p></td>
+           
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="Gender" >Gender</label></p></td>
+            <td><label for="male" style="margin-left: 30px;">Male </label><input type="radio" value="Male" style="margin-left:-15px;" name="gender"></td>
+            <td><label for="male" style="margin-left: -210px;">Female </label><input type="radio" value="Female" style="margin-left:-15px;" name="gender"></td>
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="Address">Address </label></p></td>
+            <td ><textarea style="margin-left: 30px; resize: none;" name="Address"  cols="40" rows="10"  ></textarea></td>
+           
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="City">City </label></p></td>
+            <td><input type="text" placeholder="Enter City Name">
+            <td><p class="p">(Max 30 characters a-z and  A-Z)</p></td>
+            
+        </tr>
+        
+        <tr>
+
+            <td><p><label for="Pin Code">Pin Code </label></p></td>
+            <td><input type="number" placeholder="Enter pin Code">
+            <td><p class="p">(6 Digit Number)</p></td>
+            
+        </tr>
+        
+        <tr>
+
+            <td><p><label for="State">State </label></p></td>
+            <td><input type="text" placeholder="Enter State Name">
+            <td><p class="p">(Max 30 characters a-z and  A-Z)</p></td>
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="Country">Country </label></p></td>
+            <td><input type="text" placeholder="Enter Country Name">
+           
+            
+        </tr>
+
+        <tr>
+
+            <td><p><label for="Hobbies">Hobbies </label></p></td>
+                
+            <table class="hobbies"><tr>
+            
+                <td> <label> Drawing</label> <input style="margin-left: -12px;" type="checkbox" value="checkbox" name="drawing">
+            <td> <label> Singing</label> <input style="margin-left: -12px;" type="checkbox" value="checkbox" name="Singing">
+            <td> <label> Dancing</label> <input style="margin-left: -12px;" type="checkbox" value="checkbox" name="Dancing">
+            <td> <label> Sketching</label> <input style="margin-left: -12px;" type="checkbox" value="checkbox" name="Sketching">
+            </tr>
+            <td> <label> Others</label> <input style="margin-left: -12px;" type="checkbox" value="checkbox" name="others">
+                <td>  <input style="margin-left: -12px;" type="text" name="others">
+                </tr>
+            
+        </table>
+                 
+        </tr>
+        <tr>
+
+            <td><p><label for="Hobbies">Qualification </label></p></td>
+                
+            <table class="qualification"><tr>
+            <th>Sl.No</th>
+            <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year</th>
+                </tr>
+            <tr><td>1</td><td>classX</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+            <tr><td>2</td><td>classXII</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+            <tr><td>3</td><td>Graduation</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+            <tr><td>4</td><td>Master</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+        </table>
+                 
+        </tr>
+        <tr>
+
+            <td><p><label for="Applied">Courses Applied For </label></p></td>
+                
+            <table class="Applied">
+            <tr><td>BCA<input type="radio" style="margin-left: 5px;"></td><td >B.COM<input style="margin-left: 5px;" type="radio"></td><td>B.Sc<input  style="margin-left: 5px;" type="radio"></td><td >B.A<input type="radio" style="margin-left: 5px;"></td></tr>
+                </table>
+                 
+        </tr>
+    </table>
+
+
+
+</form>
+
+
+
+<div class="button">
+
+
+    <button><a href="#">Submit</a></button>
+    <button><a href="#">Reset</a></button>
+</div>
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
