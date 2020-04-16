@@ -104,4 +104,21 @@ image{
     width: 380px;
     margin-left: 600px;
     margin-bottom: -15px;
+} 
+
+ .message{
+     text-align: center;
+     margin-top: 180px;
+ }
+
+
+ .message > .h1{
+     color: green;
+     letter-spacing: 1px;
+     font-size: 50px;
+ }
+
+
+.tick{
+    width: 200px;
 }
