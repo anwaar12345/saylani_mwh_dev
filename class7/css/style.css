@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+}
+
+
+table{
+    margin: 0 auto;
+    border-spacing: 5px 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+}
+tr:hover{
+    background-color: red;
+}
+
+td,th{
+    border: black 1px solid;
+}
