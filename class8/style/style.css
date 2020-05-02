@@ -15,3 +15,38 @@ li > a:hover {
     
 }
 
+.navmain{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+   
+    
+}
+.navmain  a {
+    text-decoration: none;
+    padding: 5px;
+    line-height: 30px;
+    color:black;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.navmain > li > a:hover{
+    text-decoration: none;
+    background-color: #316DC3;
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+}
+ 
+.title-icon .img ::before{
+    content: "";
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    background-color: yellowgreen;
+    top: 0;
+    left: 0;
+
+}
