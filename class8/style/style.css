@@ -1,0 +1,17 @@
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+li > a {
+    text-decoration: none;
+    padding: 5px;
+    line-height: 30px;
+}
+
+li > a:hover {
+    text-decoration: none;
+    background-color: rgba(43, 43, 245, 0.945);
+    
+}
+
