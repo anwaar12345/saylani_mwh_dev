@@ -40,13 +40,27 @@ li > a:hover {
     border-radius: 25px;
 }
  
-.title-icon .img ::before{
-    content: "";
-    width: 30%;
+.line {
+
+    width: 70px;
+    margin-left: 250px;
     height: 3px;
-    position: absolute;
-    background-color: yellowgreen;
-    top: 0;
-    left: 0;
+
+    background-color:#427900 ;
+
+    display: block;
+
+}
+
+
+.line1 {
+
+    width: 70px;
+    margin-left: 110px;
+    height: 3px;
+        
+    background-color:#427900 ;
+
+    display: block;
 
 }
