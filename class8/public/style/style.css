@@ -1,4 +1,4 @@
-li{
+.ul{
     list-style-type: none;
     display: inline-block;
     margin: 5px;
@@ -63,4 +63,48 @@ li > a:hover {
 
     display: block;
 
+}
+
+.gallery{
+    width: 220px;
+}
+
+
+.i{
+    color: green;
+}
+
+
+
+.lines {
+
+    width: 70px;
+    
+    height: 2px;
+    padding-left: -10px;
+    background-color:#427900 ;
+
+    display: block;
+
+}
+
+
+.lines1 {
+
+    width:200px;
+    
+    height: 0.3px;
+    margin-left: 70.5px;
+    background-color: #fff ;
+
+    display: block;
+
+}
+.ld{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 90%;
+    background-color: blue;
 }
